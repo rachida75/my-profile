@@ -1,0 +1,115 @@
+/*Colors and fonts*/
+body {
+	font-family: Helvetica;
+	font-size: 17px;
+	font-weight: lighter;
+}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color: #7a2627;
+	font-size: 32px;
+	font-weight: 900px
+}
+h2 {
+	color: #7a2627;
+	font-size: 24px;
+	font-weight: lighter;
+}
+a {
+	font-family: 'Roboto', sans-serif
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: 600;
+	font-size: 16px;
+}
+#introduction p {
+	margin-bottom: 40px;
+
+}
+a:hover {
+	color:black;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+.btn-blue {
+    background-color: #c0804a;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 4px;
+
+}
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.img-circle {
+	border-radius: 50%
+}
+html {
+  margin:0;
+  padding:0;
+  background: url(images/foodies-img.jpeg) no-repeat center center fixed; 
+  background-size: cover; 
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 30px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  margin-left: -80px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
